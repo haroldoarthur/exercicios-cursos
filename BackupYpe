@@ -1,0 +1,45 @@
+Backup
+
+Nomeclatura correta para as branchs:
+feat — new feature for the user
+fix — bug fix for the user
+docs — documentation changes
+style — formatting, missing semi colons etc.
+refactor — refactoring production code
+test — adding missing tests, refactoring tests
+chore — updating grunt tasks, nothing that an external user would see
+Example:
+ 
+git branch feat/double-shield-strength
+git branch fix/#1234/ammo-counter
+
+Nomeclatura para commits:
+<type>(<optional scope>): <description>
+ 
+git commit -m  "feat: double shield strength"
+git commit -m "fix(button): restart game"
+
+
+Subir info:
+git add . 
+git commit -m "comentario"
+git push origin noma-da-branch
+
+
+Clonar branch:
+git checkout main
+git pull origin main
+git checkout -b nome-da-nova-branch
+
+
+
+Passo a passo para Base Cesta Beneficios:
+Aba Admin > Importar Arquivo > Arquivo precisa ser publico (Conferir header)
+ 
+http://beneficiosype.ype.ind.br/adm
+ 
+User: ADMINISTRADO RH
+Senha: AdmAmparo@2025
+ 
+Header correto:
+ 
